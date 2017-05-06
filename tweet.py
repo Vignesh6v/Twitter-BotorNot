@@ -21,15 +21,25 @@ api = tweepy.API(auth)
 
 def getData(usernames):
     for username in usernames:
-        user = api.get_user(username)
-        print username
-        data = dataFormat(user)
-        # print data
-        with open('userData.csv','a') as f:
-            wr = csv.writer(f, quoting=csv.QUOTE_ALL)
-            wr.writerow(data)
+        if username.startswith('"') and username.endswith('"'): username = username[1:-1]
+        try:
+            user = api.user_timeline(username)
+            print user
+            data = dataFormat(user)
+            #print data
+            '''
+            with open('train1.csv','a') as c:
+                wr = csv.writer(c, quoting=csv.QUOTE_ALL)
+                wr.writerow(data)
+
+            c.close()
+            '''
+        except Exception as e:
+            print username,e
+
 
     print 'done'
+
 
 def dataFormat(user):
     status = user.status if hasattr(user, 'status') else ''
@@ -42,7 +52,8 @@ def dataFormat(user):
 
 
 userList = []
-with open('userList.txt') as f:
+
+with open('usertext.txt','rU') as f:
     for line in f:
         userList += line.strip(),
 
