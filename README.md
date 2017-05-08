@@ -21,7 +21,7 @@ Choosen Parameters:
 * min samples leaf: 8
 
 Tree Structure: 
-![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/image.png "Tree Visualization") 
+![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/image.jpeg "Tree Visualization") 
 
 
 Project Team
