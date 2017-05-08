@@ -24,6 +24,11 @@ Tree Structure:
 ![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/Image.jpeg "Tree Visualization") 
 
 
+
+Comparing Different Models
+![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/Result.jpeg "Result") 
+
+
 Project Team
 -------
 
