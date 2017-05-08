@@ -24,6 +24,25 @@ Tree Structure:
 ![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/Image.jpeg "Tree Visualization") 
 
 
+Neural Network
+ -------
+Parameters:
+* solver = lbfgs
+* alpha = 0.001
+* layer = [17,10]
+* activation = tanh
+
+
+Random Forest
+-------
+Parameters:
+* criterion= gini
+* max_depth= 6
+* max_features= 21
+* min_impurity_split=1e-07
+* min_samples_leaf=5
+* min_samples_split=30
+
 
 Comparing Different Models
 ![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/Result.jpeg "Result") 
