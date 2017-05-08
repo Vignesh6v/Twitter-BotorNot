@@ -45,6 +45,7 @@ Parameters:
 
 
 Comparing Different Models
+--------
 ![Alt text](https://github.com/Vignesh6v/Twitter-BotorNot/blob/master/Result.jpeg "Result") 
 
 
